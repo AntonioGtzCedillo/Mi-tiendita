@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Mi tiendita_files/all.min.css">
+    <title>Mi tiendita</title>
+
+<script defer="" src="./Mi tiendita_files/main.js"></script><style>*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+    background-image: url(http://localhost:3000/5fcf51128b0f8f1d3e63.jpeg);
+    background-size: cover; 
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 50vh !important;
+    background: url(http://localhost:3000/5fcf51128b0f8f1d3e63.jpeg) no-repeat center;
+    background-size:contain
+}
+
+.title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    flex-direction: column;
+}
+/* .title p {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+   
+} */
+.title-contacto {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.numero {
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: purple;
+    
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: purple;
+    padding: 0 100px;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+}
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: black;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+    margin-top: 100px;
+    font-weight: 400;
+}
+
+.btn-nosotros {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: black;
+    text-decoration: none;
+    background: #9c27b0;
+}
+
+.btn-nosotros:hover {
+    background-color: #fff;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box-1 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem;   
+    background-size: cover;
+    font-size: 20px;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(http://localhost:3000/55d193dcf3270e67cf12.jpg);
+}
+
+.box-container .box-2 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem; 
+    background-size: cover;  
+    font-size: 20px;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(http://localhost:3000/e68b55130f33677525de.jpg);
+}
+
+.box-container .box-3 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem; 
+    background-size: cover; 
+    font-size: 20px;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(http://localhost:3000/6d1786bdb8366e1daf9a.jpeg);
+} 
+
+.box-container .box-4 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem;   
+    background-size: cover;
+    font-size: 20px;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(http://localhost:3000/02b6dbfd4b01a9b70843.webp);
+
+}
+.box-container .box-5 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem; 
+    font-size: 20px;
+    background-size: cover;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(http://localhost:3000/4cc0b989f39b118bb662.jpg);  
+}
+
+.box-container .box-6 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem;  
+    background-size: cover;
+    font-size: 20px;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(http://localhost:3000/4f9e31d98eaa7dc15763.jpeg); 
+}
+
+
+.price {
+    background: url(http://localhost:3000/47046cf2dc243d033583.jpeg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.contact {
+    background: #171717;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.map {
+    background-image: url(http://localhost:3000/da16b24017e22771d751.png);
+    background-size: cover;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    
+}</style></head>
+<body>
+
+    <div class="head">
+
+        <div class="logo"></div>
+
+        <nav class="navbar">
+            <a href="http://localhost:3000/#">Inicio</a>
+            <a href="http://localhost:3000/#">Nosotros</a>
+            <a href="http://localhost:3000/#">Conacto</a>
+            <a href="http://localhost:3000/#">Productos</a>
+            <a href="http://localhost:3000/#">Precio</a>
+        </nav>
+
+    </div>
+
+    <header class="content header">
+        <h1 class="title">Inicio</h1>
+        <p>
+            Multiples productos al mejor precio, manejamos una dinamica de compra, 
+            se publican los artiulos disponibles, 
+            ordenas el que mas te agrade y en un lapso no mayor a 1 semana te lo entregamos.
+        </p>
+
+        <div class="btn-home">
+            <a href="http://localhost:3000/#" class="btn">Catalogo</a>
+        </div>
+    </header>
+        
+        <div class="box-container">
+
+            <div class="box-1">
+                <h2>Luces</h2>
+            </div>
+            <div class="box-2">
+                <h2>Audifonos</h2>
+            </div>
+            <div class="box-3">
+                <h2>Reloj</h2>
+            </div>
+            <div class="box-4">
+                <h2>Carpa</h2>
+            </div>
+            <div class="box-5">
+                <h2>Manguera</h2>
+            </div>
+            <div class="box-6">
+                <h2>Masking</h2>
+            </div>
+
+        </div>
+
+    
+
+    <section class="content price">
+
+        <div class="contain">
+            <h2 class="title">Precio</h2>
+            <p>Nuestros precios son de los mejores del mercado.
+            </p>
+
+            <a href="http://localhost:3000/#" class="btn">Saber precio</a>
+
+        </div>
+
+    </section>
+
+    <div class="content contact">
+        <h2 class="title-contacto">Contacto</h2>
+        <h3 class="numero">495-107-6644</h3>
+       <div class="map">mapa</div>
+    </div>
+    
+
+
+      <script>
+        const source = new EventSource('/livereload');
+        const reload = () => location.reload(true);
+        source.onmessage = reload;
+        source.onerror = () => (source.onopen = reload);
+        console.log('[servor] listening for file changes');
+      </script>
+    </body></html>

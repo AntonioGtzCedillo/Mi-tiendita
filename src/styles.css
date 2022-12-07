@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -23,61 +23,82 @@ body {
     z-index: 100;
 }
 
-.navbar {
-    display: flex;
-    margin-right: 10px;
-}
 
 .logo {
     margin-left: 30px;
+    background-image: url(img/header.jpeg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
 }
 
-.logo a {
-    text-decoration: none;
+.menus {
+    display: flex;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.menus p {
+    padding: 20px;
     color: #fff;
-    text-transform: uppercase;
+    text-decoration: none;
     font-size: 20px;
 }
 
-.navbar a {
-    display: block;
-    padding: 20px 20px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.navbar a:hover {
+.menus p:hover {
     background: #3f3f3f;
 }
 
 .header {
+    height: 50vh !important;
+    background: url(img/header.jpeg) no-repeat center;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.header {
-    height: 60vh !important;
-    background: url(img/header.jpeg) no-repeat center;
-    background-size:contain
 }
 
 .title {
+    margin-top: 130px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    flex-direction: column;
+}
+
+.title-contacto {
     margin-bottom: 40px;
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
     color: red;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
-p {
+.numero {
     margin-bottom: 40px;
-    font-size: 18px;
+    font-size: 40px;
+    color: purple;
+
+}
+
+header.header p {
+    margin-bottom: 40px;
+    font-size: 20px;
     color: purple;
     padding: 0 100px;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+}
+div.contain p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: purple;
+    padding: 0 100px;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
 }
 
 .btn {
@@ -92,15 +113,14 @@ p {
 
 .btn:hover {
     background: none;
-    
+
 }
 
 .btn-home {
     display: flex;
-}
-
-.btn-home a {
-    margin: 0 10px;
+    margin-top: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .btn-nosotros {
@@ -136,38 +156,79 @@ p {
 
 }
 
-.box-container .box {
-    height: 11rem;
-    width: 17rem;
-    background: #101010;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
-    margin: 2rem;   
-}
-
-.box-container .box i {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    background: #9c27b0;
-    font-size: 2rem;
-    margin: 1rem 0;
-
-}
-
-.box-container .box h3 {
+.box-container .box-1 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem;
+    background-size: cover;
     font-size: 20px;
     color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(img/luces.jpg);
+}
+
+.box-container .box-2 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem;
+    background-size: cover;
+    font-size: 20px;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(img/audifo.jpg);
+}
+
+.box-container .box-3 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem;
+    background-size: cover;
+    font-size: 20px;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(img/reloj.jpeg);
+}
+
+.box-container .box-4 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem;
+    background-size: cover;
+    font-size: 20px;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(img/18811003-1.webp);
 
 }
 
-.about {
-    background: #171717;
+.box-container .box-5 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem;
+    font-size: 20px;
+    background-size: cover;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(img/817nHBbsXhL._AC_SL1500_.jpg);
 }
+
+.box-container .box-6 {
+    height: 17rem;
+    width: 19rem;
+    border-radius: 20px;
+    margin: 2rem;
+    background-size: cover;
+    font-size: 20px;
+    color: #9c27b0;
+    border: 3px solid greenyellow;
+    background-image: url(img/maskking_high_pro_disposable_vape_device_10pcspack_1_-1.jpeg);
+}
+
 
 .price {
     background: url(img/carpa.jpeg) no-repeat center;
@@ -176,15 +237,22 @@ p {
     text-align: center;
 }
 
-
 .contact {
-    padding-top: 30px;
-    margin: 6em;
     background: #171717;
-    height: 520px;
-    width:520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
 }
 
+.map {
+    background-image: url(img/mapa.png);
+    background-size: cover;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+}
 
 @media (max-width: 768px) {
 
@@ -193,9 +261,9 @@ p {
         font-size: 40px;
     }
 
-    .navbar {
+    .menus {
         display: none;
     }
-   
-    
+
+
 }
